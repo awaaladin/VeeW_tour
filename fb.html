@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veew's Website Design</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/1a524f3557.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/Veew_logo.webp" alt="Veew Logo" width="150" height="100"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="front-page.html">HOME</a></li>
+                <li><a href="about-us.html">ABOUT</a></li>
+                <li><a href="http://www.whatsappawajefferson598.com">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars fa-lg" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Nigeria's Best Explorer</h1>
+        <p>Get the best tour guides in Nigeria for unforgettable experiences, delicious food, and comfortable accommodations tailored to your lifestyle.</p>
+        <a href="contact.html" class="hero-btn">Contact Us To Know More</a>
+    </div>
+</section>
+
+<!-- Available Tours -->
+<section class="availables">
+    <h1>Available Places and Drivetime Offers</h1>
+    <p>Akwa Ibom is a peaceful and scenic destination, offering a delightful experience for all visitors.</p>
+    <div class="row">
+        <div class="availables-col">
+            <h3>Basic</h3>
+            <p>Explore Akwa Ibom with our 18-seater bus for a group-friendly adventure.</p>
+        </div>
+        <div class="availables-col">
+            <h3>Classic</h3>
+            <p>Tour in comfort with our classic sedans, perfect for small groups or families.</p>
+        </div>
+        <div class="availables-col">
+            <h3>Luxury</h3>
+            <p>Enjoy ultimate comfort and style with our luxurious SUVs.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Standard Offers -->
+<section class="standard-offers">
+    <h1>Other Standard Offers</h1>
+    <p>We provide exclusive offers such as family packs, student excursions, and festive bonuses, with amazing discounts on top destinations and accommodations.</p>
+    <div class="row">
+        <div class="offer-col">
+            <img src="images/Untitled presentationy.png" alt="Ikot Ekpene" width="700" height="500">
+            <div class="layer">
+                <h3>IKOT EKPENE</h3>
+            </div>
+        </div>
+        <div class="offer-col">
+            <img src="images/Untitled presentation (3).png" alt="Uyo" width="700" height="500">
+            <div class="layer">
+                <h3>UYO</h3>
+            </div>
+        </div>
+        <div class="offer-col">
+            <img src="images/Untitled presentation (5).png" alt="Eket" width="700" height="500">
+            <div class="layer">
+                <h3>EKET</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Facilities -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Experience joyful rides, local delicacies, and premium accommodations with relaxing amenities like pools and massages.</p>
+    <div class="row">
+        <div class="facility-col">
+            <img src="images/Untitled presentation (12).png" alt="Affordable Mobility">
+            <h3>Affordable Mobility</h3>
+            <p>We offer affordable mobility options tailored to your needs.</p>
+        </div>
+        <div class="facility-col">
+            <img src="images/Untitled presentation (14).png" alt="Luxurious Views">
+            <h3>Luxurious Views</h3>
+            <p>Experience the beauty of Akwa Ibom in style and luxury.</p>
+        </div>
+        <div class="facility-col">
+            <img src="images/Untitled presentation (11).png" alt="Spectacular Rides">
+            <h3>Spectacular Rides</h3>
+            <p>Enjoy smooth and scenic rides through beautiful cities.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta">
+    <h1>Tour the Beautiful Cities with Veew</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Veew is a tour and vacation company offering premium mobility and access to top-notch accommodations, all at affordable prices.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made by <i class="fa-solid fa-gem"></i> Diamond</p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

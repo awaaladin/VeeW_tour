@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh ;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+    rgba(4,9,30,0.7)),url(images/Untitled\ presentation\ \(9\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.about{
+    color:black;
+    text-align: center;
+    
+}
+.first{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.second{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.third{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s; 
+}
+.fourth{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.fifth{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.sixth{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+   padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+
+.about h2{
+    text-align: center;
+}
+.about h3{
+    text-align: center;
+}
+.about h4{
+    text-align: center;
+}
+.paragraph{
+    color: #fff;
+    text-align: center;
+}

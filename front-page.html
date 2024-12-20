@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veews Website Design</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <script src="https://kit.fontawesome.com/1a524f3557.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/View logo.webp" width="150" height="100"></a> 
+        <div class="nav-links" id="navLinks">
+            <div class="hideMenu close"><i class="fa-solid fa-times"  style= "color: #ffffff;" onclick="hideMenu()"></i>
+            </div>
+
+            <ul>
+                <li><a href="front-page.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href=" https://wa.me/2348144304528" target="_blank">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <div class="hideMenu"><i class="fa-solid fa-bars fa-lg " style="color: #ffffff;" onclick="showMenu()" ></i></div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+
+    </nav>
+
+<div class="text-box">
+    <h1>Nigeria's Best Explorator</h1>
+    <p>Get the best explorator (Tour Guide) in Nigeria that will 
+       give<br> you the best experience you can think of, the best
+       foods and accomodations to suit your live stlye.
+    </p>
+    <a href=" https://wa.me/2348144304528" target="_blank" class="hero-btn">Contact Us To Know More</a>
+</div>
+
+
+</section>
+
+
+<!-- Avalaibles -->
+ <section class="availables">
+    <h1>Available places and Drivetime offers</h1>
+    <p>Akwa Ibom is the best place to visit and ranks the most peaceful place in Nigeria. </p>
+    <div class="row">
+        <div class="availables-col">
+            <h3>Basic</h3>
+            <p>Using the basic drivetime i.e the 18 seater bus to view the beautiful cities and towns of akwa ibom.</p>
+        </div>
+        <div class="availables-col">
+            <h3>Classic</h3>
+            <p>Using the classic drivetime i.e a beutiful sedan to view the beautiful cities and towns of akwa ibom.</p>
+        </div>
+        <div class="availables-col">
+            <h3>Luxury</h3>
+            <p>Using the luxurous drivetime i.e a luxury SUV to view the beautiful cities and towns of akwa ibom.</p>
+        </div>
+
+    </div>
+
+
+ </section>
+ <!-- Other Starndard Offers -->
+ <section class="Other-Starndard-Offers">
+    <h1>Other Starndard Offers</h1>
+    <p>Other starndardadized offers includes
+       family pack,student excusion,festive bonuses
+       etc.these offers come with explicit discounts
+       to distinguised sites and wonderful accomodations
+       to our dear customers.</p>
+    <div class="row">
+        <div class="Other-Starndard-Offers-col">
+            <img src="images/Untitled presentationy.png" width="700" height="500">
+            <div class="layer">
+                <h3>IKOT EKPENE</h3>
+            </div>
+        </div>
+        <div class="Other-Starndard-Offers-col">
+            <img src="images/Untitled presentation (3).png" width="700" height="500">
+            <div class="layer">
+                <h3>UYO</h3>
+            </div>
+        </div>
+        <div class="Other-Starndard-Offers-col">
+            <img src="images/Untitled presentation (5).png" width="700" height="500">
+            <div class="layer">
+                <h3>EKET</h3>
+            </div>
+        </div>
+        
+    </div>
+
+ </section>
+ <!----------Facilties--------->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    Joyful rides to various sites with the best taste of the
+    environment and to give you the savouring tastes of local 
+    delicascies that you can imagine and fixing you with the best 
+    accomodations you can ask for with relaxing massages and 
+    relaxing pools.
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/Untitled presentation (12).png">
+            <h3>Affordable Mobility</h3>
+            <p>We offfer affordable mobilities to fit your needs.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Untitled presentation (14).png">
+            <h3>Luxurious veews....</h3>
+            <p>Viewing beauty with luxry.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Untitled presentation (11).png">
+            <h3>Spectacular Rides</h3>
+            <p>Smooth rides in a beautiful city .
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!---------Call to Action----------->
+<section class="cta">
+    <h1>Tour the beautiful cities with<br>VeeW <br></h1>
+    <h3>contact us on Whatsapp to get <br>booked</h3>
+    <a href="https://wa.me/2348144304528" target="_blank" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!---------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Veew is a Tour&Vacation company that helps tourist
+       or people who are looking to have some time off to 
+       relax by offering them full <br>mobility and access to 
+       the best accomodations to fit their needs at affordable 
+       prices.</p>
+       <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+       </div>
+       <p>Made by <i class="fa-sharp fa-solid fa-gem"></i> Diamond</p> 
+    </section>
+
+
+
+
+
+
+
+<!---------JavaScript for Toggle Menu------->
+<script>
+    var navlinks = documents.getElementByID("navLinks");
+    function showMenu(){
+        navLinks.style.display = "block";
+
+    }
+    function hideMenu(){
+        navLinks.style.display = "none";
+        
+    }
+
+
+</script>
+    
+</body>
+</html>
